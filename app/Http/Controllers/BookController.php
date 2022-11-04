@@ -30,6 +30,7 @@ class BookController extends Controller
         ]);
 
         $book = new Book();
+        
         $book->title = $request->title;
 
         $book->save();
